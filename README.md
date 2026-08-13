@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Leonidaz Pharmaceuticals Website
 
-## Getting Started
+A modern, responsive, high-performance web application for **Leonidaz Pharmaceuticals Pvt. Ltd.** built using Next.js, React, and Vanilla CSS/TailwindCSS utilities.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Product Catalogue**: Full showcase of 70 WHO-GMP certified formulations (Prescription, OTC, Supplements, and Nutraceuticals).
+- **Network Directory**: Interactive Kerala district coverage and franchise partner directory across 14 districts.
+- **Brand Showcase**: Comprehensive company story, mission, vision, values, and executive leadership presentation.
+- **Mobile Responsive**: Fully responsive layout optimized for desktop, tablet, and mobile displays.
+- **Fast & Static**: 100% static prerendered Next.js build with zero external server runtime dependencies.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Framework**: Next.js (App Router)
+- **UI & Logic**: React, Lucide React Icons, Framer Motion
+- **Styling**: Vanilla CSS / TailwindCSS Utilities
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Local Development
 
-## Learn More
+1. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Run Development Server**:
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Production Build**:
+   ```bash
+   npm run build
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© Leonidaz Pharmaceuticals Pvt. Ltd. All rights reserved.
