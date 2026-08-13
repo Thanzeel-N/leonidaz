@@ -19,7 +19,7 @@ export default function AboutUsSection({
   subheading = 'DISCOVER OUR STORY',
   heading = 'About Us',
   description = 'We are a passionate team dedicated to creating reliable, high-quality pharmaceutical and healthcare solutions that elevate everyday life. With attention to clinical precision and a commitment to absolute excellence, we transform visions of healthcare accessibility into reality.',
-  imageSrc = '/images/pharmacy.png',
+  imageSrc = '/images/pharmacy.webp',
   imageAlt = 'Leonidaz Pharmacy & Distribution Center',
   services: customServices,
   stats: customStats,

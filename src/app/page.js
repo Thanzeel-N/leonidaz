@@ -16,7 +16,7 @@ export default function HomePage() {
         {/* Background Image Container */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000 scale-105"
-          style={{ backgroundImage: "url('/images/Hero/hero.png')" }}
+          style={{ backgroundImage: "url('/images/Hero/hero.webp')" }}
         />
 
         {/* Dark Cinematic Darkening & Vignette Overlay */}
@@ -59,7 +59,7 @@ export default function HomePage() {
         subheading="THE PHILOSOPHY & STORY"
         heading="Delivering Health. Building Trust."
         description="Founded in 2006 on a simple principle: absolute transparency and uncompromising clinical quality. We dedicate our operations to eliminating the friction between advanced medical solutions and the communities across Kerala who rely on them."
-        imageSrc="/images/pharmacy.png"
+        imageSrc="/images/pharmacy.webp"
         imageAlt="Leonidaz Pharmacy & Distribution Center"
         services={[
           {

@@ -82,7 +82,7 @@ export default function RootLayout({ children }) {
               '@type': 'Organization',
               name: 'Leonidaz Pharmaceuticals',
               url: 'https://leonidazpharma.com',
-              logo: 'https://leonidazpharma.com/images/Leonidaz_Logo.png',
+              logo: 'https://leonidazpharma.com/images/Leonidaz_Logo.webp',
               description: 'Premier Pharmaceutical Marketing & PCD Franchise Company across Kerala',
               address: {
                 '@type': 'PostalAddress',

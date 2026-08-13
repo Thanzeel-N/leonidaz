@@ -42,7 +42,7 @@ export default function AboutPage() {
           <div className="lg:col-span-6 reveal">
             <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl aspect-[4/5] bg-white border border-slate-200/80 group">
               <img
-                src="/images/products_grouped.png"
+                src="/images/products_grouped.webp"
                 alt="Leonidaz Pharmaceutical Formulations Showcase"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -131,7 +131,7 @@ export default function AboutPage() {
       <section className="pb-20 px-4 sm:px-6 md:px-12 max-w-[1200px] mx-auto">
         <div className="reveal relative rounded-3xl overflow-hidden shadow-2xl border border-slate-200/80 group aspect-[16/9] sm:aspect-[2.2/1] bg-slate-950">
           <img
-            src="/images/products_grouped.png"
+            src="/images/products_grouped.webp"
             alt="Leonidaz Comprehensive Pharmaceutical Range"
             className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90"
           />

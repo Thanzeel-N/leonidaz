@@ -48,7 +48,7 @@ export default function Navbar() {
 
             <Link href="/" className="flex items-center group relative z-10 py-1" onClick={() => setMobileMenuOpen(false)}>
               <div className="relative h-10 sm:h-12 md:h-14 lg:h-16 flex items-center bg-white/20 p-1.5 sm:p-2 rounded-lg lg:bg-transparent lg:p-0 lg:rounded-none">
-                <img src="/images/Leonidaz_Logo.png" alt="Leonidaz" className="h-full w-auto object-contain group-hover:scale-105 transition-transform origin-left drop-shadow-sm" />
+                <img src="/images/Leonidaz_Logo.webp" alt="Leonidaz" className="h-full w-auto object-contain group-hover:scale-105 transition-transform origin-left drop-shadow-sm" />
               </div>
             </Link>
 
