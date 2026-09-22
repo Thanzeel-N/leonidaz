@@ -1,0 +1,395 @@
+{
+  "brokenImages": [],
+  "overflow": false,
+  "errors": [
+    "Network did not become idle within 60 seconds"
+  ],
+  "resources": [
+    {
+      "url": "https://beta.leonidazpharma.com/",
+      "type": "Document",
+      "status": 200,
+      "mimeType": "text/html",
+      "responseHeadersBytes": 289,
+      "originalContentLength": "15859",
+      "downloadedBytes": 16157
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/css/980631907ce46b7a.css",
+      "type": "Stylesheet",
+      "status": 200,
+      "mimeType": "text/css",
+      "responseHeadersBytes": 177,
+      "originalContentLength": null,
+      "downloadedBytes": 1809
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/css/8dc57e1a8951980f.css",
+      "type": "Stylesheet",
+      "status": 200,
+      "mimeType": "text/css",
+      "responseHeadersBytes": 39,
+      "originalContentLength": null,
+      "downloadedBytes": 11992
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=2000&auto=format&fit=crop",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/avif",
+      "responseHeadersBytes": 394,
+      "originalContentLength": "266627",
+      "downloadedBytes": 267219
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/media/636a5ac981f94f8b-s.p.woff2",
+      "type": "Font",
+      "status": 200,
+      "mimeType": "font/woff2",
+      "responseHeadersBytes": 49,
+      "originalContentLength": "27295",
+      "downloadedBytes": 27362
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/media/7b89a4fd5e90ede0-s.p.woff2",
+      "type": "Font",
+      "status": 200,
+      "mimeType": "font/woff2",
+      "responseHeadersBytes": 51,
+      "originalContentLength": null,
+      "downloadedBytes": 37882
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/media/806de4d605d3ad01-s.p.woff2",
+      "type": "Font",
+      "status": 200,
+      "mimeType": "font/woff2",
+      "responseHeadersBytes": 48,
+      "originalContentLength": "9575",
+      "downloadedBytes": 9632
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/pharmacy.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 89,
+      "originalContentLength": null,
+      "downloadedBytes": 205046,
+      "originalFileBytes": 204760,
+      "originalWidth": 1536,
+      "originalHeight": 1024
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/Leonidaz_Logo.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 50,
+      "originalContentLength": "34460",
+      "downloadedBytes": 34537,
+      "originalFileBytes": 34432,
+      "originalWidth": 866,
+      "originalHeight": 288
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/products/ADOL%20FORTE.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 43,
+      "originalContentLength": null,
+      "originalFileBytes": 520398,
+      "originalWidth": 1000,
+      "originalHeight": 1000
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/products/ALTIZ%20M%20SYP.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 43,
+      "originalContentLength": null,
+      "originalFileBytes": 632464,
+      "originalWidth": 1000,
+      "originalHeight": 1000
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/products/ALTIZ%20SYP.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 43,
+      "originalContentLength": null,
+      "originalFileBytes": 669792,
+      "originalWidth": 1000,
+      "originalHeight": 1000
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/products/ALTIZ.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 43,
+      "originalContentLength": null,
+      "originalFileBytes": 556770,
+      "originalWidth": 1000,
+      "originalHeight": 1000
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/products/ALTIZ%20M%20TAB.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 43,
+      "originalContentLength": null,
+      "originalFileBytes": 488198,
+      "originalWidth": 1000,
+      "originalHeight": 1000
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/products/ANTIPROST%20D.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 43,
+      "originalContentLength": null,
+      "originalFileBytes": 367324,
+      "originalWidth": 1000,
+      "originalHeight": 1000,
+      "downloadedBytes": 367562
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/products/ASCOFEROL1.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 43,
+      "originalContentLength": null,
+      "originalFileBytes": 415154,
+      "originalWidth": 1000,
+      "originalHeight": 1000,
+      "downloadedBytes": 415368
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/media/8a1d8947e5852e30-s.p.woff2",
+      "type": "Font",
+      "status": 200,
+      "mimeType": "font/woff2",
+      "responseHeadersBytes": 49,
+      "originalContentLength": "34588",
+      "downloadedBytes": 34664
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/media/e4af272ccee01ff0-s.p.woff2",
+      "type": "Font",
+      "status": 200,
+      "mimeType": "font/woff2",
+      "responseHeadersBytes": 42,
+      "originalContentLength": null,
+      "downloadedBytes": 48511
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/media/7b0b24f36b1a6d0b-s.p.woff2",
+      "type": "Font",
+      "status": 200,
+      "mimeType": "font/woff2",
+      "responseHeadersBytes": 49,
+      "originalContentLength": "32098",
+      "downloadedBytes": 32165
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/media/eaead17c7dbfcd5d-s.p.woff2",
+      "type": "Font",
+      "status": 200,
+      "mimeType": "font/woff2",
+      "responseHeadersBytes": 49,
+      "originalContentLength": "38378",
+      "downloadedBytes": 38454
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/media/fc727f226c737876-s.p.woff2",
+      "type": "Font",
+      "status": 200,
+      "mimeType": "font/woff2",
+      "responseHeadersBytes": 48,
+      "originalContentLength": "9487",
+      "downloadedBytes": 9544
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/products/COMBIGLIPT%2050.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 43,
+      "originalContentLength": null,
+      "originalFileBytes": 546466,
+      "originalWidth": 1000,
+      "originalHeight": 1000
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/products/COMBIGLIPT%20M.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 43,
+      "originalContentLength": null,
+      "originalFileBytes": 482348,
+      "originalWidth": 1000,
+      "originalHeight": 1000
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/products/DAZERIN%20GM.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 43,
+      "originalContentLength": null,
+      "originalFileBytes": 580912,
+      "originalWidth": 1000,
+      "originalHeight": 1000
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/chunks/webpack-071c199897e7536b.js",
+      "type": "Script",
+      "status": 200,
+      "mimeType": "application/javascript",
+      "responseHeadersBytes": 38,
+      "originalContentLength": null,
+      "downloadedBytes": 1721
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/chunks/ae17c6e1-8effea06f5f321f3.js",
+      "type": "Script",
+      "status": 200,
+      "mimeType": "application/javascript",
+      "responseHeadersBytes": 39,
+      "originalContentLength": null,
+      "downloadedBytes": 62975
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/chunks/main-app-a836dc17d8dd4f6e.js",
+      "type": "Script",
+      "status": 200,
+      "mimeType": "application/javascript",
+      "responseHeadersBytes": 46,
+      "originalContentLength": "225",
+      "downloadedBytes": 280
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/chunks/664-ebffcb96c78e3737.js",
+      "type": "Script",
+      "status": 200,
+      "mimeType": "application/javascript",
+      "responseHeadersBytes": 66,
+      "originalContentLength": null,
+      "downloadedBytes": 4269
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/chunks/340-777b966ac9316658.js",
+      "type": "Script",
+      "status": 200,
+      "mimeType": "application/javascript",
+      "responseHeadersBytes": 39,
+      "originalContentLength": null,
+      "downloadedBytes": 60776
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/chunks/app/layout-33b2470d17684648.js",
+      "type": "Script",
+      "status": 200,
+      "mimeType": "application/javascript",
+      "responseHeadersBytes": 38,
+      "originalContentLength": null,
+      "downloadedBytes": 3731
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/chunks/449-ddf8fcc038ef5db6.js",
+      "type": "Script",
+      "status": 200,
+      "mimeType": "application/javascript",
+      "responseHeadersBytes": 38,
+      "originalContentLength": null,
+      "downloadedBytes": 3348
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/chunks/547-35f349504c56c27a.js",
+      "type": "Script",
+      "status": 200,
+      "mimeType": "application/javascript",
+      "responseHeadersBytes": 39,
+      "originalContentLength": null,
+      "downloadedBytes": 5570
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/chunks/app/page-bde5ee584bb88809.js",
+      "type": "Script",
+      "status": 200,
+      "mimeType": "application/javascript",
+      "responseHeadersBytes": 39,
+      "originalContentLength": null,
+      "downloadedBytes": 7647
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/_next/static/chunks/847-9ee8075e4f79c7b0.js",
+      "type": "Script",
+      "status": 200,
+      "mimeType": "application/javascript",
+      "responseHeadersBytes": 39,
+      "originalContentLength": null,
+      "downloadedBytes": 45553
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/products/ELCOX%2090.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 43,
+      "originalContentLength": null,
+      "originalFileBytes": 467966,
+      "originalWidth": 1000,
+      "originalHeight": 1000
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/products/ELCOX%20TH1.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 66,
+      "originalContentLength": null,
+      "originalFileBytes": 434530,
+      "originalWidth": 1000,
+      "originalHeight": 1000
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/products/ELPRED%204.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 66,
+      "originalContentLength": null,
+      "originalFileBytes": 445310,
+      "originalWidth": 1000,
+      "originalHeight": 1000
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/products/ELPRED%208.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 66,
+      "originalContentLength": null,
+      "originalFileBytes": 449146,
+      "originalWidth": 1000,
+      "originalHeight": 1000
+    },
+    {
+      "url": "https://beta.leonidazpharma.com/images/products/ENNESS%20NASAL%20DROPS.webp",
+      "type": "Image",
+      "status": 200,
+      "mimeType": "image/webp",
+      "responseHeadersBytes": 66,
+      "originalContentLength": null
+    }
+  ]
+}

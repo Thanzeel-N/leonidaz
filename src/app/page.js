@@ -1,22 +1,29 @@
-'use client';
-import { useRevealAll } from '@/hooks/useReveal';
+import Image from 'next/image';
+import HomeReveal from '@/components/ui/HomeReveal';
+import ViewportImage from '@/components/ui/ViewportImage';
 import Link from 'next/link';
-import { PRODUCTS, STATS, DISTRICTS_COVERED, DISTRIBUTORS } from '@/data/content';
+import { PRODUCTS, DISTRIBUTORS } from '@/data/content';
 import { ArrowRight, Pill, Activity, Leaf, FlaskConical, Droplets, Heart, Shield, Star, Users, Truck, ShieldCheck, Clock, UserCheck, MapPin, Building2, Award, CheckCircle2, Sparkles, CheckCircle, Zap, Calendar, TrendingUp, Box } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import AboutUsSection from '@/components/ui/about-us-section';
 
+const featuredProducts = PRODUCTS.slice(0, 6);
+
 export default function HomePage() {
-  useRevealAll();
   return (
     <>
+      <HomeReveal />
       {/* ═══ 1. HERO SECTION ═══ */}
       <section className="relative w-full h-screen min-h-[600px] flex flex-col justify-between items-center overflow-hidden bg-[#0A0D14] text-white select-none">
 
         {/* Background Image Container */}
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-1000 scale-105"
-          style={{ backgroundImage: "url('/images/Hero/hero.webp')" }}
+        <Image
+          src="/images/Hero/hero.webp"
+          alt=""
+          fill
+          preload
+          sizes="100vw"
+          className="object-cover object-center transition-transform duration-1000 scale-105"
         />
 
         {/* Dark Cinematic Darkening & Vignette Overlay */}
@@ -133,6 +140,7 @@ export default function HomePage() {
             </div>
             <Button
               href="/products"
+              prefetch={false}
               variant="secondary"
               className="!bg-white border-2 border-slate-200/90 !text-brand-navy hover:!border-brand-navy hover:!bg-brand-navy hover:!text-white font-bold tracking-[0.15em] uppercase text-xs rounded-full px-6 sm:px-8 py-3 sm:py-4 transition-all duration-300 shadow-sm shrink-0 self-start sm:self-auto"
             >
@@ -143,18 +151,19 @@ export default function HomePage() {
           {/* Infinite Marquee Product Scroll Banner */}
           <div className="overflow-hidden relative w-full py-4 select-none [mask-image:linear-gradient(to_right,transparent,black_6%,black_94%,transparent)]">
             <div className="flex gap-6 sm:gap-8 md:gap-12 animate-marquee whitespace-nowrap pr-6 sm:pr-12">
-              {[...PRODUCTS, ...PRODUCTS].map((product, i) => (
-                <Link
+              {[...featuredProducts, ...featuredProducts].map((product, i) => (
+                <Link prefetch={false}
                   key={`marquee-${product.id}-${i}`}
                   href="/products"
                   className="group flex flex-col items-center text-center shrink-0 w-36 sm:w-44 md:w-52 cursor-pointer"
                 >
                   <div className="w-full h-36 sm:h-44 md:h-52 flex items-center justify-center relative mb-3 sm:mb-4 bg-white rounded-2xl sm:rounded-3xl p-3 sm:p-4 shadow-sm border border-slate-200/80 group-hover:border-brand-teal/40 group-hover:shadow-md transition-all duration-300">
                     {product.display_image ? (
-                      <img
+                      <ViewportImage
+                        sizes="(max-width: 639px) 144px, (max-width: 767px) 176px, 208px"
                         src={product.display_image}
                         alt={product.name}
-                        className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                        className="object-contain p-3 sm:p-4 group-hover:scale-105 transition-transform duration-300"
                       />
                     ) : (
                       <div className="w-20 h-20 sm:w-24 sm:h-24 bg-white rounded-2xl shadow-sm border border-slate-200/80 flex flex-col items-center justify-center gap-1 group-hover:scale-105 transition-transform duration-300">
@@ -217,7 +226,7 @@ export default function HomePage() {
           <div className="lg:w-7/12 p-6 sm:p-10 lg:p-20 bg-white">
             <div className="grid gap-4 sm:gap-6">
               {DISTRIBUTORS.slice(0, 10).map((dist) => (
-                <Link href="/distributors" key={dist.id} className="group flex flex-col sm:flex-row gap-4 sm:gap-6 p-6 sm:p-8 rounded-2xl sm:rounded-3xl bg-slate-50 border border-slate-100 hover:border-brand-teal/30 hover:shadow-xl transition-all duration-500">
+                <Link prefetch={false} href="/distributors" key={dist.id} className="group flex flex-col sm:flex-row gap-4 sm:gap-6 p-6 sm:p-8 rounded-2xl sm:rounded-3xl bg-slate-50 border border-slate-100 hover:border-brand-teal/30 hover:shadow-xl transition-all duration-500">
 
                   <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-white shadow-sm flex items-center justify-center text-brand-navy group-hover:bg-brand-teal group-hover:text-white transition-colors duration-500 shrink-0">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" /><circle cx="12" cy="10" r="3" /></svg>
@@ -249,7 +258,12 @@ export default function HomePage() {
       {/* ═══ 5. CTA SECTION ═══ */}
       <section className="py-16 sm:py-24 md:py-32 px-4 sm:px-6 lg:px-24 max-w-[1600px] mx-auto text-center">
         <div className="glass-card bg-brand-navy rounded-[2rem] sm:rounded-[3rem] md:rounded-[4rem] p-8 sm:p-14 md:p-24 relative overflow-hidden group">
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center opacity-10 mix-blend-overlay group-hover:scale-105 transition-transform duration-[10s]"></div>
+          <ViewportImage
+            src="/images/partnership-lab.webp"
+            alt=""
+            sizes="(max-width: 639px) calc(100vw - 32px), (max-width: 767px) calc(100vw - 48px), (max-width: 1023px) calc(100vw - 96px), 1408px"
+            className="object-cover object-center opacity-10 mix-blend-overlay group-hover:scale-105 transition-transform duration-[10s]"
+          />
           <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-t from-brand-navy to-transparent opacity-80"></div>
 
           <div className="relative z-10 flex flex-col items-center">

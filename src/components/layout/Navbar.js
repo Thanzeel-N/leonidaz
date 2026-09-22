@@ -46,9 +46,9 @@ export default function Navbar() {
               ></div>
             )}
 
-            <Link href="/" className="flex items-center group relative z-10 py-1" onClick={() => setMobileMenuOpen(false)}>
+            <Link prefetch={false} href="/" className="flex items-center group relative z-10 py-1" onClick={() => setMobileMenuOpen(false)}>
               <div className="relative h-10 sm:h-12 md:h-14 lg:h-16 flex items-center bg-white/20 p-1.5 sm:p-2 rounded-lg lg:bg-transparent lg:p-0 lg:rounded-none">
-                <img src="/images/Leonidaz_Logo.webp" alt="Leonidaz" className="h-full w-auto object-contain group-hover:scale-105 transition-transform origin-left drop-shadow-sm" />
+                <Image width={866} height={288} sizes="(max-width: 639px) 85px, (max-width: 767px) 97px, (max-width: 1023px) 121px, 193px" src="/images/Leonidaz_Logo.webp" alt="Leonidaz" className="h-full w-auto object-contain group-hover:scale-105 transition-transform origin-left drop-shadow-sm" />
               </div>
             </Link>
 
@@ -64,7 +64,7 @@ export default function Navbar() {
                 const lineStyle = isOverDarkHero ? 'bg-white' : 'bg-brand-navy';
 
                 return (
-                  <Link
+                  <Link prefetch={false}
                     key={link.label}
                     href={link.href}
                     className={`font-body text-sm font-medium tracking-wide transition-all relative group ${textStyle}`}
@@ -95,7 +95,7 @@ export default function Navbar() {
           {NAV_LINKS.map((link) => {
             const isActive = pathname === link.href || (link.href !== '/' && pathname.startsWith(link.href));
             return (
-              <Link
+              <Link prefetch={false}
                 key={link.label}
                 href={link.href}
                 className={`font-display text-4xl sm:text-5xl tracking-tight transition-colors ${isActive ? 'text-brand-navy' : 'text-text-dark hover:text-brand-teal'}`}

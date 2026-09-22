@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
-import Image from 'next/image';
+import ViewportImage from './ViewportImage';
 import {
   Building2,
   Award,
@@ -220,7 +220,8 @@ export default function AboutUsSection({
                 transition={{ duration: 0.8, delay: 0.3 }}
                 whileHover={{ scale: 1.02, transition: { duration: 0.3 } }}
               >
-                <img
+                <ViewportImage
+                  sizes="(max-width: 639px) 280px, (max-width: 767px) 384px, (max-width: 1023px) 30vw, 384px"
                   src={imageSrc}
                   alt={imageAlt}
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"

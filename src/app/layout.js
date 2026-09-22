@@ -4,21 +4,25 @@ import Footer from '@/components/layout/Footer';
 import './globals.css';
 
 const outfit = Outfit({
+  preload: false,
   subsets: ["latin"],
   variable: '--font-outfit',
 });
 
 const inter = Inter({
+  preload: false,
   subsets: ["latin"],
   variable: '--font-inter',
 });
 
 const playfair = Playfair_Display({
+  preload: false,
   subsets: ["latin"],
   variable: '--font-playfair',
 });
 
 const syne = Syne({
+  preload: false,
   subsets: ["latin"],
   variable: '--font-syne',
 });
@@ -72,8 +76,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

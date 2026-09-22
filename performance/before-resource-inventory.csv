@@ -1,0 +1,99 @@
+url,type,originalFileBytes,decodedResourceBytes,downloadedBytes,width,height,initial,position,isLcp
+"http://localhost:3100/","Document",0,174085,16738,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/media/01e4147cff8141ee-s.p.3huc2loe0ie8a.woff2","Font","",37776,38076,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/media/0c795a286deabae8-s.p.3vm0tq4e-zz_5.woff2","Font","",34560,34860,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/media/1b99372b3eaef0c8-s.p.1gsd1jahc5dg_.woff2","Font","",32228,32528,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/media/2a65768255d6b625-s.p.3u4lli0-axodc.woff2","Font","",38460,38760,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/media/83afe278b6a6bb3c-s.p.2bn3s6zvc0dyp.woff2","Font","",48432,48732,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/media/8d05cfa5faa8406c-s.p.1s123piy9_v1m.woff2","Font","",9552,9851,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/media/dc0d9adbac686440-s.p.3cik_s2si-ft-.woff2","Font","",9464,9763,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/media/fba5a26ea33df6a3-s.p.18rizl4rsrl42.woff2","Font","",27272,27572,"","",true,"not applicable",false
+"http://localhost:3100/images/Leonidaz_Logo.webp","Image",34432,34432,34714,866,288,true,"above fold",false
+"http://localhost:3100/images/pharmacy.webp","Image",204760,204760,205044,1536,1024,true,"below fold",false
+"http://localhost:3100/images/products/ADOL%20FORTE.webp","Image",520398,520398,520682,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ALTIZ%20M%20SYP.webp","Image",632464,632464,632748,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ALTIZ%20M%20TAB.webp","Image",488198,488198,488482,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ALTIZ%20SYP.webp","Image",669792,669792,670076,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ALTIZ.webp","Image",556770,556770,557054,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ANTIPROST%20D.webp","Image",367324,367324,367608,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ASCOFEROL1.webp","Image",415154,415154,415438,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/COMBIGLIPT%2050.webp","Image",546466,546466,546750,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/_next/static/chunks/0zjnjj10hwcc3.css","Stylesheet","",89164,14737,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/chunks/3jvkbm-wxvaor.js","Script","",23985,7879,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/chunks/27jktro2p5rq9.js","Script","",44414,9633,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/chunks/0iec5q4ack_04.js","Script","",227315,71422,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/chunks/07u_h6i539_wj.js","Script","",150333,40863,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/chunks/turbopack-1ryn182118a_w.js","Script","",10580,4548,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/chunks/2jv1remmjhc-s.js","Script","",25425,9140,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/chunks/14mrh2-p_w84d.js","Script","",54646,13272,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/chunks/18ljtm74-ykr8.js","Script","",33693,8051,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/chunks/3z-wbtrz06wst.js","Script","",4061,2289,"","",true,"not applicable",false
+"http://localhost:3100/_next/static/chunks/0hzj4pah9fzav.js","Script","",155042,50405,"","",true,"not applicable",false
+"http://localhost:3100/images/products/COMBIGLIPT%20M.webp","Image",482348,482348,482632,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/DAZERIN%20GM.webp","Image",580912,580912,581196,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ELCOX%2090.webp","Image",467966,467966,468250,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ELCOX%20TH1.webp","Image",434530,434530,434814,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ELPRED%204.webp","Image",445310,445310,445594,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ELPRED%208.webp","Image",449146,449146,449430,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ENNESS%20NASAL%20DROPS.webp","Image",533614,533614,533898,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/EPIGUD%20250.webp","Image",489402,489402,489686,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/FENTA%20250.webp","Image",284514,284514,284798,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/FERZA%20XT.webp","Image",384180,384180,384464,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/FLUZIN%2010.webp","Image",571530,571530,571814,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/FLUZIN%205.webp","Image",350916,350916,351200,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/FLUZIN%20PLUS.webp","Image",456920,456920,457204,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/FOCAZ.webp","Image",475546,475546,475830,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/GSM%20TOTAL.webp","Image",621614,621614,621898,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/HISTOUT%20M.webp","Image",512992,512992,513276,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/HISTOUT.webp","Image",524294,524294,524578,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/LEO%20D.webp","Image",495552,495552,495836,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/LEO%20PRO%20D.webp","Image",631122,631122,631406,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/LEO%20PRO.webp","Image",607008,607008,607292,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/LEO1.webp","Image",451646,451646,451930,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/LEOCORT%206.webp","Image",559888,559888,560172,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/LEOPRIDE%201.webp","Image",457770,457770,458054,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/LEOPRIDE%201M.webp","Image",441770,441770,442054,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/LEOPRIDE%202.webp","Image",423454,423454,423738,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/LEOPRIDE%202M.webp","Image",407210,407210,407494,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/LEVA%20SYRUP.webp","Image",607324,607324,607608,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/LEVODRYL%20SYRUP.webp","Image",331208,331208,331492,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/LHQ%20200.webp","Image",471906,471906,472190,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/LUNGMATE%20PLUS.webp","Image",622058,622058,622342,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/MEBO%20G%20100.webp","Image",509050,509050,509334,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/MEBOCAL.webp","Image",339240,339240,339524,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/MEBOPLUS.webp","Image",361556,361556,361840,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/MEBOVITAL%20LC.webp","Image",392870,392870,393154,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/MOON%20SUSP.webp","Image",262950,262950,263234,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/MULTIBEC.webp","Image",534916,534916,535200,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/NUTRACT.webp","Image",661800,661800,662084,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ORENAC%20TH.webp","Image",543018,543018,543302,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/OREPAN%2040.webp","Image",502502,502502,502786,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/OREPAN%20D1.webp","Image",466470,466470,466754,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/OREWIC%20E.webp","Image",498598,498598,498882,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/OTOFIT%20EAR%20DROPS.webp","Image",545714,545714,545998,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/PREGANO%20PLUS.webp","Image",519372,519372,519656,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/PROFINAL%20LINIMENT.webp","Image",603446,603446,603730,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/PROFINAL.webp","Image",518678,518678,518962,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/QUIKTEL%2040%20copy.webp","Image",511924,511924,512208,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/QUIKTEL%20CL.webp","Image",523346,523346,523630,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/QUIKTEL%20H40.webp","Image",512798,512798,513082,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ROLIPTA%2010.webp","Image",495202,495202,495486,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ROLIPTA%205.webp","Image",464856,464856,465140,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/STIL%2051.webp","Image",511110,511110,511394,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/STIL%20MD.webp","Image",439090,439090,439374,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/SUGAFLOZIN%2010.webp","Image",474274,474274,474558,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/TOLZO%20P.webp","Image",715402,715402,715686,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/TRIGGER%2040.webp","Image",474020,474020,474304,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ZADNAC%20P.webp","Image",471494,471494,471778,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ZATRIL%2010.webp","Image",510216,510216,510500,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ZEFIX%20200.webp","Image",518308,518308,518592,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ZEFIX%20DLX%20200.webp","Image",394386,394386,394670,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ZOLAR%20DSR.webp","Image",436600,436600,436884,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ZOLAR.webp","Image",497382,497382,497666,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/products/ZOLNAC.webp","Image",521880,521880,522164,1000,1000,true,"below fold (horizontal marquee)",false
+"http://localhost:3100/images/Hero/hero.webp","Image",92168,92168,92451,1672,941,true,"above fold",false
+"https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=2000&auto=format&fit=crop","Image","",266820,267368,2000,1333,true,"below fold",false
+"http://localhost:3100/?_rsc=7h4NYy5eoyMcNlUN","Fetch",0,2651,1366,"","",true,"not applicable",false
+"http://localhost:3100/?_rsc=yIp22O3xgPPxC28X","Fetch",0,3664,1864,"","",true,"not applicable",false
+"http://localhost:3100/?_rsc=8nTjltbQWvg6NcbE","Fetch",0,1151,896,"","",true,"not applicable",false
+"http://localhost:3100/favicon.ico?favicon.2vob68tjqpejf.ico","Other","",25931,26262,"","",true,"not applicable",false
