@@ -254,31 +254,6 @@ export default function HomePage() {
 
         </div>
       </section>
-
-      {/* ═══ 5. CTA SECTION ═══ */}
-      <section className="py-16 sm:py-24 md:py-32 px-4 sm:px-6 lg:px-24 max-w-[1600px] mx-auto text-center">
-        <div className="glass-card bg-brand-navy rounded-[2rem] sm:rounded-[3rem] md:rounded-[4rem] p-8 sm:p-14 md:p-24 relative overflow-hidden group">
-          <ViewportImage
-            src="/images/partnership-lab.webp"
-            alt=""
-            sizes="(max-width: 639px) calc(100vw - 32px), (max-width: 767px) calc(100vw - 48px), (max-width: 1023px) calc(100vw - 96px), 1408px"
-            className="object-cover object-center opacity-10 mix-blend-overlay group-hover:scale-105 transition-transform duration-[10s]"
-          />
-          <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-t from-brand-navy to-transparent opacity-80"></div>
-
-          <div className="relative z-10 flex flex-col items-center">
-            <h2 className="font-display text-3xl sm:text-5xl md:text-7xl text-white tracking-tight leading-tight mb-6 sm:mb-8">
-              Partner with Leonidaz <br /> in Your District.
-            </h2>
-            <p className="font-body text-lg sm:text-xl md:text-2xl text-white/70 max-w-2xl font-light mb-8 sm:mb-12">
-              We've built one of the most trusted pharmaceutical marketing networks in Kerala, ensuring quality medicines are always within reach.
-            </p>
-            <Button href="/distributors" variant="secondary" className="!bg-white !text-brand-navy border-none hover:scale-105">
-              Explore Full Directory →
-            </Button>
-          </div>
-        </div>
-      </section>
     </>
   );
 }

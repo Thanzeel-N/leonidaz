@@ -44,15 +44,18 @@ export default function Footer() {
                 </span>
                 <span className="break-all">{COMPANY.email}</span>
               </a>
+              {COMPANY.phones.map((phone) => (
               <a
-                href={`tel:${COMPANY.phone}`}
+                key={phone}
+                href={`tel:${phone.replace(/\s/g, '')}`}
                 className="flex items-center gap-3 w-fit hover:text-brand-navy hover:translate-x-1 transition-all group py-0.5 sm:py-1"
               >
                 <span className="text-brand-navy/70 group-hover:text-brand-navy transition-colors">
                   <Phone size={18} strokeWidth={2} />
                 </span>
-                <span>{COMPANY.phone}</span>
+                <span>{phone}</span>
               </a>
+              ))}
             </div>
           </div>
 
@@ -147,4 +150,3 @@ export default function Footer() {
     </footer>
   );
 }
-

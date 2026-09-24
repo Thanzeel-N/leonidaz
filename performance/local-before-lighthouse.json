@@ -3834,7 +3834,7 @@
                 "height": 118
               },
               "snippet": "<img src=\"/images/products/ELCOX TH1.webp\" alt=\"ELCOX TH1\" class=\"max-w-full max-h-full object-contain group-hover:scale-105 transition-tran…\">",
-              "nodeLabel": "ELCOX TH1"
+              "nodeLabel": "ELCOX TH"
             }
           },
           {
@@ -6205,7 +6205,7 @@
                 "height": 118
               },
               "snippet": "<img src=\"/images/products/TRIGGER 40.webp\" alt=\"TRIGGER 40\" class=\"max-w-full max-h-full object-contain group-hover:scale-105 transition-tran…\">",
-              "nodeLabel": "TRIGGER 40"
+              "nodeLabel": "TRIGGER 4G"
             },
             "url": "http://localhost:3100/images/products/TRIGGER%2040.webp",
             "totalBytes": 474020,
@@ -6680,8 +6680,8 @@
                 "width": 118,
                 "height": 118
               },
-              "snippet": "<img src=\"/images/products/ELCOX TH1.webp\" alt=\"ELCOX TH1\" class=\"max-w-full max-h-full object-contain group-hover:scale-105 transition-tran…\">",
-              "nodeLabel": "ELCOX TH1"
+              "snippet": "<img src=\"/images/products/ELCOX TH1.webp\" alt=\"ELCOX TH\" class=\"max-w-full max-h-full object-contain group-hover:scale-105 transition-tran…\">",
+              "nodeLabel": "ELCOX TH"
             },
             "url": "http://localhost:3100/images/products/ELCOX%20TH1.webp",
             "totalBytes": 434530,

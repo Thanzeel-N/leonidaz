@@ -88,7 +88,9 @@ export default function RootLayout({ children }) {
               description: 'Premier Pharmaceutical Marketing & PCD Franchise Company across Kerala',
               address: {
                 '@type': 'PostalAddress',
-                addressLocality: 'Kozhikode',
+                streetAddress: '19/89-A, Rasiya Building, Opp. Civil Station',
+                addressLocality: 'Tirur, Malappuram',
+                postalCode: '676101',
                 addressRegion: 'Kerala',
                 addressCountry: 'IN',
               },

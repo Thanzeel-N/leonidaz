@@ -1,7 +1,7 @@
 'use client';
 import { useState, useMemo } from 'react';
 import { useRevealAll } from '@/hooks/useReveal';
-import { DISTRIBUTORS, DISTRICTS_COVERED, PARTNER_BENEFITS } from '@/data/content';
+import { DISTRIBUTORS, DISTRIBUTOR_DISTRICTS, DISTRICTS_COVERED, PARTNER_BENEFITS } from '@/data/content';
 import { MapPin, Phone, Mail, Check, TrendingUp, Search, Filter } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import Input from '@/components/ui/Input';
@@ -36,7 +36,7 @@ export default function DistributorsPage() {
             Everywhere you need us.
           </h1>
           <p className="font-body text-lg sm:text-xl md:text-2xl text-text-muted mt-4 sm:mt-6 max-w-2xl font-light">
-            We've built one of the most trusted pharmaceutical marketing networks in Kerala, ensuring quality medicines are always within reach — backed by a network of 25+ partners across 14 districts.
+            Our distribution network brings quality medicines within reach across Kerala, with {DISTRIBUTORS.length} partners across {DISTRIBUTOR_DISTRICTS.length} districts.
           </p>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function DistributorsPage() {
                         {activeDistrict === 'All' && <Check size={16} className="shrink-0" />}
                       </button>
                     </li>
-                    {DISTRICTS_COVERED.map((district) => (
+                    {DISTRIBUTOR_DISTRICTS.map((district) => (
                       <li key={district}>
                         <button
                           onClick={() => setActiveDistrict(district)}
@@ -111,7 +111,7 @@ export default function DistributorsPage() {
           </aside>
 
           {/* ── Distribution Partners Grid ── */}
-          <div className="flex-1">
+          <div className="flex-1 min-w-0">
             <div className="mb-8 flex justify-between items-end border-b border-border-subtle pb-4">
               <div>
                 <h2 className="font-display text-2xl text-text-dark">Distribution Partners</h2>
@@ -139,20 +139,20 @@ export default function DistributorsPage() {
                       </div>
 
                       <h3 className="font-display text-2xl text-text-dark mb-1 group-hover:text-brand-navy transition-colors">{dist.name}</h3>
-                      <p className="font-body text-brand-teal font-medium text-sm mb-6">{dist.town}</p>
+                      {dist.town && <p className="font-body text-brand-teal font-medium text-sm mb-6">{dist.town}</p>}
 
-                      <div className="space-y-3 mb-8">
+                      <div className="space-y-3 mt-6 mb-8">
                         <div className="flex items-center gap-3 text-sm text-text-dark">
-                          <Phone size={15} className="text-text-light shrink-0" /> <span className="font-body">{dist.phone}</span>
+                          <Phone size={15} className="text-text-light shrink-0" /> <span className="font-body break-words min-w-0">{dist.phone}</span>
                         </div>
-                        <div className="flex items-center gap-3 text-sm text-text-dark">
+                        {dist.email && <div className="flex items-center gap-3 text-sm text-text-dark">
                           <Mail size={15} className="text-text-light shrink-0" /> <span className="font-body break-all">{dist.email}</span>
-                        </div>
+                        </div>}
                       </div>
                     </div>
 
                     <div className="pt-5 border-t border-border-subtle mt-auto">
-                      <p className="text-xs text-text-muted font-light leading-relaxed">{dist.address}</p>
+                      <p className="text-sm text-text-muted font-light leading-relaxed whitespace-pre-line break-words">{dist.address}</p>
                     </div>
                   </div>
                 ))}
@@ -236,5 +236,4 @@ export default function DistributorsPage() {
     </>
   );
 }
-
 

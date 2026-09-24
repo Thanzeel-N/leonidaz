@@ -5,7 +5,6 @@ import { useRevealAll } from '@/hooks/useReveal';
 import { STATS, LEADERSHIP } from '@/data/content';
 import { ShieldCheck, Zap, Users } from 'lucide-react';
 import NumberCounter from '@/components/ui/NumberCounter';
-import Button from '@/components/ui/Button';
 
 const LEADER_PHOTOS = [
   'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=900&auto=format&fit=crop',
@@ -245,39 +244,6 @@ export default function AboutPage() {
               </p>
             </div>
           ))}
-        </div>
-      </section>
-
-      {/* ═══ 6. VIBRANT BRAND NAVY CTA BANNER ═══ */}
-      <section className="pb-16 sm:pb-24 px-4 sm:px-6 md:px-12 max-w-[1200px] mx-auto">
-        <div className="reveal bg-brand-navy text-white rounded-2xl sm:rounded-3xl p-8 sm:p-14 md:p-20 text-center shadow-xl relative overflow-hidden">
-          
-          <h2 className="text-2xl sm:text-4xl md:text-5xl font-serif font-normal text-white mb-3 sm:mb-4 tracking-tight">
-            Ready to elevate your healthcare narrative?
-          </h2>
-
-          <p className="text-white/85 font-body font-light text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-8 sm:mb-10 leading-relaxed">
-            Join the 25+ PCD franchise partners across 14 districts in Kerala who trust Leonidaz Pharmaceuticals to deliver their most critical formulations.
-          </p>
-
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
-            <Button
-              href="/distributors"
-              variant="white"
-              icon={true}
-              className="w-full sm:w-auto font-semibold px-8 py-3.5"
-            >
-              Partner With Us
-            </Button>
-            <Button
-              href="/contact"
-              variant="outline-white"
-              className="w-full sm:w-auto font-semibold px-8 py-3.5"
-            >
-              Contact Us
-            </Button>
-          </div>
-
         </div>
       </section>
 

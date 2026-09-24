@@ -3,7 +3,6 @@ import { useRevealAll } from '@/hooks/useReveal';
 import { COMPANY } from '@/data/content';
 import { Phone, Mail, MessageCircle, MapPin } from 'lucide-react';
 import Button from '@/components/ui/Button';
-import Input from '@/components/ui/Input';
 
 export default function ContactPage() {
   useRevealAll();
@@ -25,10 +24,10 @@ export default function ContactPage() {
       </section>
 
       <section className="py-12 sm:py-20 md:py-24 px-4 sm:px-6 lg:px-24 max-w-[1600px] mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-16 lg:gap-24">
+        <div className="grid grid-cols-1 max-w-3xl mx-auto">
 
           {/* ── Contact Info (Left) ── */}
-          <div className="reveal order-2 lg:order-1">
+          <div className="reveal">
             <div className="glass-card p-6 sm:p-10 md:p-12 rounded-2xl sm:rounded-[2rem] bg-white/50 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-64 h-64 bg-brand-teal/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
               <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-navy/5 rounded-full blur-3xl translate-y-1/3 -translate-x-1/3 pointer-events-none"></div>
@@ -48,7 +47,9 @@ export default function ContactPage() {
                     <Phone size={16} /> Direct Contact
                   </h3>
                   <div className="flex flex-col gap-2 sm:gap-3">
-                    <a href={`tel:${COMPANY.phone}`} className="font-display text-xl sm:text-2xl hover:text-brand-teal transition-colors">{COMPANY.phone}</a>
+                    {COMPANY.phones.map((phone) => (
+                      <a key={phone} href={`tel:${phone.replace(/\s/g, '')}`} className="font-display text-xl sm:text-2xl hover:text-brand-teal transition-colors">{phone}</a>
+                    ))}
                     <a href={`mailto:${COMPANY.email}`} className="font-body text-base sm:text-lg text-text-muted hover:text-brand-navy transition-colors">{COMPANY.email}</a>
                   </div>
                 </div>
@@ -68,30 +69,6 @@ export default function ContactPage() {
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* ── Contact Form (Right) ── */}
-          <div className="reveal reveal-delay-2 order-1 lg:order-2">
-            <form className="space-y-2" onSubmit={(e) => e.preventDefault()}>
-              <Input label="Name" placeholder="Your Name" />
-              <Input label="Email" type="email" placeholder="your@email.com" />
-
-              <Input as="select" label="Inquiry Type">
-                <option value="">Select an option</option>
-                <option value="franchise">PCD Pharma Franchise Inquiry</option>
-                <option value="doctor">Doctor / Institutional Supply</option>
-                <option value="careers">Careers</option>
-                <option value="other">General Inquiry</option>
-              </Input>
-
-              <Input as="textarea" label="Message" placeholder="How can we help you?" />
-
-              <div className="pt-4 sm:pt-6">
-                <Button variant="primary" icon className="w-full sm:w-auto">
-                  Send Message
-                </Button>
-              </div>
-            </form>
           </div>
         </div>
       </section>

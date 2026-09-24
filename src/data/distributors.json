@@ -1,0 +1,281 @@
+[
+    {
+        "id":  1,
+        "name":  "CITY DRUG LINES",
+        "district":  "Kasaragod",
+        "town":  "",
+        "address":  "Arafa Building\nMission Compound\nM.G Road\nKasarakode - 671121",
+        "phone":  "04994-329353, 04994-220530",
+        "email":  ""
+    },
+    {
+        "id":  2,
+        "name":  "CHITHIRA ENTERPRISES",
+        "district":  "Kasaragod",
+        "town":  "",
+        "address":  "Pharmaceutical Distributors\nNear Bus Stand\nKottachery\nKanhangad-671315",
+        "phone":  "0467-2204982, 2207515",
+        "email":  ""
+    },
+    {
+        "id":  3,
+        "name":  "SWAPNA ENTERPRISES",
+        "district":  "Kasaragod",
+        "town":  "",
+        "address":  "Pharmaceutical Distributors\nRahmath Shopping Complex\nKottachery\nKanhangad-671315",
+        "phone":  "0467-2206825",
+        "email":  ""
+    },
+    {
+        "id":  4,
+        "name":  "VINAYAKA ENTERPRISES",
+        "district":  "Kannur",
+        "town":  "",
+        "address":  "19/181-1, Vinayaka Building,\nNear Old Bus Stand,\nPayyannur - 670307",
+        "phone":  "9645314666; 04985 202475",
+        "email":  ""
+    },
+    {
+        "id":  5,
+        "name":  "AIMS PHARMACEUTICALS",
+        "district":  "Kannur",
+        "town":  "",
+        "address":  "51/2103, Second Floor,\nSuper Bazar,\nBank Road,\nKannur - 670001",
+        "phone":  "0497-2709848; 9446709848",
+        "email":  ""
+    },
+    {
+        "id":  6,
+        "name":  "PHARMACARE",
+        "district":  "Kannur",
+        "town":  "",
+        "address":  "Pharmaceuticals Distributers\nHaji Buliding Cw.35/2834 A\nKannur - 670001",
+        "phone":  "0497-2700045, 2703145",
+        "email":  ""
+    },
+    {
+        "id":  7,
+        "name":  "THE CANNANORE DRUG CENTRE",
+        "district":  "Kannur",
+        "town":  "",
+        "address":  "Door No:45/1789,45/1790,45/1795,45/1796\nFirst Floor, Sithara Complex\nNcc Road, Thalassery\nThalassery - 670101",
+        "phone":  "0490-2322965, 7510312965",
+        "email":  ""
+    },
+    {
+        "id":  8,
+        "name":  "MEYON PHARMA",
+        "district":  "Kozhikode",
+        "town":  "",
+        "address":  "60/3494,\nApco Tower,\nJail Road,\nCalicut -673004",
+        "phone":  "2702586   2702788",
+        "email":  ""
+    },
+    {
+        "id":  9,
+        "name":  "RIN RAZ PHARMACEUTICALS",
+        "district":  "Kozhikode",
+        "town":  "",
+        "address":  "60/4446 84, Nadha Complex\nZ.C North Road\nChalappuram\nKozhikode-673002",
+        "phone":  "0495-2701530,400530",
+        "email":  ""
+    },
+    {
+        "id":  10,
+        "name":  "THISTLE HEALTHCARE INDIA PVT LTD",
+        "district":  "Kozhikode",
+        "town":  "",
+        "address":  "18/1084 , Meyon Building\nJail Road\nKozhikode - 673004",
+        "phone":  "0495-2702168",
+        "email":  ""
+    },
+    {
+        "id":  11,
+        "name":  "BADAGARA DRUG LINES",
+        "district":  "Kozhikode",
+        "town":  "",
+        "address":  "20/17E,\nSreesastha Building,\nEdodi, Badagara,\nVatakara-673101",
+        "phone":  "9847997997",
+        "email":  ""
+    },
+    {
+        "id":  12,
+        "name":  "FALAH PHARMA",
+        "district":  "Kozhikode",
+        "town":  "",
+        "address":  "Pharmaceutical Distributors\n23/196 E, Sudhinam Building\nNarayana Nagar,\nNear Petrol Pump,\nThiruvallur Road,\nVadakara-673 101",
+        "phone":  "0496-2513613, 3260164",
+        "email":  ""
+    },
+    {
+        "id":  13,
+        "name":  "BY PHARMA",
+        "district":  "Wayanad",
+        "town":  "",
+        "address":  "Door No.XII/62,\nCity tower, PWD Road,\nKalpetta,\nWayanad - 673121",
+        "phone":  "0493-6203854",
+        "email":  ""
+    },
+    {
+        "id":  14,
+        "name":  "RESORT MEDICALS",
+        "district":  "Wayanad",
+        "town":  "",
+        "address":  "Pharmaceutical Distributors\nNear SKMJ High School\nKM 8 /102, Mysoore Road\nKalpetta\nWayanad",
+        "phone":  "04936-340205",
+        "email":  ""
+    },
+    {
+        "id":  15,
+        "name":  "CA PHARMA",
+        "district":  "Malappuram",
+        "town":  "",
+        "address":  "Cholayil Complex\nDoor No: 20/1291 H\nNear Kacheripadi Masjid\nCourt Road\nManjeri-676121",
+        "phone":  "0483-2766687",
+        "email":  ""
+    },
+    {
+        "id":  16,
+        "name":  "SHEEN PHARMA",
+        "district":  "Malappuram",
+        "town":  "",
+        "address":  "Pharmaceutical Distributors\nSheen Tower, Nilambur Road,\nManjeri - 676121",
+        "phone":  "0483-2762809; 9446593299",
+        "email":  ""
+    },
+    {
+        "id":  17,
+        "name":  "QUADRA AGENCIES AND PHARMACEUTICALS DISTRIBUTORS",
+        "district":  "Malappuram",
+        "town":  "",
+        "address":  "Door No: 4/736(3),Hisanas Building,\nHousing Colony Road,\nPerinthalmanna-679322",
+        "phone":  "0493-3228693, 9446249228",
+        "email":  ""
+    },
+    {
+        "id":  18,
+        "name":  "GALORE PHARMACEUTICALS",
+        "district":  "Malappuram",
+        "town":  "",
+        "address":  "Opp. Busstand\nM P Road\nTirur-676101\nMalappuram Dt.",
+        "phone":  "0494-2423144, 9847013244",
+        "email":  ""
+    },
+    {
+        "id":  19,
+        "name":  "UNIVERSAL DRUG LINES",
+        "district":  "Malappuram",
+        "town":  "",
+        "address":  "VII/513 \u0026 VII/519\nMarkaz Shopping Complex\nEast Bazar, Tirur-676101\nMalappuram Dt.",
+        "phone":  "0494-2427577, 9447335973",
+        "email":  ""
+    },
+    {
+        "id":  20,
+        "name":  "AAR YEM YES ASSOCIATES",
+        "district":  "Palakkad",
+        "town":  "",
+        "address":  "41/827-3,\nPappachan complex\nKannara street\nPalakkad-678001",
+        "phone":  "9846834695",
+        "email":  ""
+    },
+    {
+        "id":  21,
+        "name":  "V J PHARMA",
+        "district":  "Palakkad",
+        "town":  "",
+        "address":  "11/463,\nHarikkara Street,\nPalakkad-678001",
+        "phone":  "0491-2502544; 9447239911",
+        "email":  ""
+    },
+    {
+        "id":  22,
+        "name":  "PECHIYAPPA CHEMICALS",
+        "district":  "Palakkad",
+        "town":  "",
+        "address":  "Pechiyappa Dorai Plaza, 11/448[1]\nPension Street,\nPalakkad-678001",
+        "phone":  "0491-2500138",
+        "email":  ""
+    },
+    {
+        "id":  23,
+        "name":  "M.V. ASSOCIATES",
+        "district":  "Palakkad",
+        "town":  "",
+        "address":  "Pharmaceutical Distributors\n11/448(6),1st Floor\nPechiyappa Dorai Plaza,  Pension Street,\nPalakkad-678001",
+        "phone":  "0491-2501239, 8714179173",
+        "email":  ""
+    },
+    {
+        "id":  24,
+        "name":  "B R ENTERPRISES",
+        "district":  "Palakkad",
+        "town":  "",
+        "address":  "4/827 (1\u00262),\nPappachan Complex\nKannara Street\nPalakkad-678001",
+        "phone":  "9895600172",
+        "email":  ""
+    },
+    {
+        "id":  25,
+        "name":  "V.J. DISTRIBUTORS",
+        "district":  "Palakkad",
+        "town":  "",
+        "address":  "XI/1489,\nMarket Road\nPalakkad- 678014",
+        "phone":  "0491-2502562",
+        "email":  ""
+    },
+    {
+        "id":  26,
+        "name":  "ABN BUSINESS GROUP",
+        "district":  "Ernakulam",
+        "town":  "",
+        "address":  "XIX/685(3)\nGreat Lane Road, Bazar P.O\nAluva- 683101\nErnakulam",
+        "phone":  "9847474783",
+        "email":  ""
+    },
+    {
+        "id":  27,
+        "name":  "AJAY PHARMA DISTRIBUTORS",
+        "district":  "Kollam",
+        "town":  "",
+        "address":  "KMC/46/213,\nNinan Tower, Big Bazar\nVadakkumbhagom\nKollam-691001",
+        "phone":  "9567940456",
+        "email":  ""
+    },
+    {
+        "id":  28,
+        "name":  "AVICOT SURGICALS",
+        "district":  "Kollam",
+        "town":  "",
+        "address":  "Door No.KM IV 247/3, Avicot Rejivilla,\nKripa Nagar 91, Kizhakkekara,\nKottarakkara,\nKollam - 691506",
+        "phone":  "0474-2450732 , 8547455878",
+        "email":  ""
+    },
+    {
+        "id":  29,
+        "name":  "A.B. AGENCIES",
+        "district":  "Kollam",
+        "town":  "",
+        "address":  "Pharmaceutical Distributors,\n46/488,5082,5083,\nAB Tower, Big Bazar\nKollam-691001",
+        "phone":  "0474-2760745, 6282293957",
+        "email":  ""
+    },
+    {
+        "id":  30,
+        "name":  "C.M MEDICAL AGENCIES",
+        "district":  "Alappuzha",
+        "town":  "",
+        "address":  "11/140A, Puthanpeedikayil Building,\nThazhakara PO,\nMavelikkara-690102\nAlappuzha",
+        "phone":  "0479-2306030,2300630",
+        "email":  ""
+    },
+    {
+        "id":  31,
+        "name":  "KRISHNA PHARMACEUTICAL REMEDIES",
+        "district":  "Alappuzha",
+        "town":  "",
+        "address":  "26/1298-B,Unique Tower\nNear Jawahar Balabhavan\nEast Of Girls School, M.O. Ward\nAlappuzha-688011",
+        "phone":  "0477-2263331,2263333",
+        "email":  ""
+    }
+]
