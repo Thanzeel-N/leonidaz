@@ -35,14 +35,14 @@ const spaceMono = Space_Mono({
 
 const cormorant = Cormorant_Garamond({
   weight: ['300', '400', '500', '600', '700'],
-  italics: ['italic'],
+  style: ['normal', 'italic'],
   subsets: ["latin"],
-  variable: '--font-cormorant',
+  variable: '--font-cormorant-garamond',
 });
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
-  variable: '--font-jakarta',
+  variable: '--font-plus-jakarta-sans',
 });
 
 export const metadata = {
@@ -74,7 +74,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${outfit.variable} ${inter.variable} ${playfair.variable} ${syne.variable} ${spaceMono.variable} ${cormorant.variable} ${jakarta.variable}`}>
       <head>
         <script
           type="application/ld+json"
@@ -103,7 +103,7 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
-      <body className={`${outfit.variable} ${inter.variable} ${playfair.variable} ${syne.variable} ${spaceMono.variable} ${cormorant.variable} ${jakarta.variable}`}>
+      <body>
         <Navbar />
         <main>{children}</main>
         <Footer />

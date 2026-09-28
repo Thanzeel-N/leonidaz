@@ -31,7 +31,7 @@ export default function Navbar() {
   return (
     <>
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled ? 'py-3 sm:py-4' : 'py-5 sm:py-6'}`}>
-        <div className={`mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-24 transition-all duration-500 ${isScrolled ? 'px-3 sm:px-4 lg:px-12' : ''}`}>
+        <div className={`mx-auto max-w-[1600px] transition-all duration-500 ${isScrolled ? 'px-3 sm:px-4 lg:px-12' : 'px-4 sm:px-6 lg:px-24'}`}>
 
           <div className={`relative flex items-center justify-between rounded-full transition-all duration-500 overflow-hidden ${isScrolled
             ? 'bg-white/80 backdrop-blur-xl border border-white/20 shadow-[0_8px_30px_rgb(0,0,0,0.04)] px-5 sm:px-6 py-3 sm:py-4'
@@ -78,7 +78,7 @@ export default function Navbar() {
 
             <div className="lg:hidden flex items-center relative z-10">
               <button
-                className={`p-2 rounded-full transition-colors ${!isScrolled && pathname === '/' ? 'text-white hover:bg-white/10' : 'text-slate-800 hover:bg-slate-100'}`}
+                className={`p-2 rounded-full transition-colors ${!isScrolled && !mobileMenuOpen && pathname === '/' ? 'text-white hover:bg-white/10' : 'text-slate-800 hover:bg-slate-100'}`}
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 aria-label="Toggle menu"
               >
@@ -90,7 +90,7 @@ export default function Navbar() {
       </header>
 
       {/* Mobile & Tablet Menu */}
-      <div className={`fixed inset-0 z-40 bg-white/95 backdrop-blur-xl transition-transform duration-500 ease-in-out lg:hidden flex flex-col justify-center ${mobileMenuOpen ? 'translate-y-0' : '-translate-y-full'}`}>
+      <div className={`fixed inset-0 z-40 overflow-hidden bg-white/95 backdrop-blur-xl transition-transform duration-500 ease-in-out lg:hidden flex flex-col justify-center ${mobileMenuOpen ? 'translate-y-0' : '-translate-y-full'}`}>
         <div className="flex flex-col items-center justify-center gap-6 sm:gap-8">
           {NAV_LINKS.map((link) => {
             const isActive = pathname === link.href || (link.href !== '/' && pathname.startsWith(link.href));

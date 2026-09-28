@@ -223,8 +223,8 @@ export default function HomePage() {
           </div>
 
           {/* Right Side: Scrolling List */}
-          <div className="lg:w-7/12 p-6 sm:p-10 lg:p-20 bg-white">
-            <div className="grid gap-4 sm:gap-6">
+          <div className="min-w-0 lg:w-7/12 p-6 sm:p-10 lg:p-20 bg-white">
+            <div className="grid grid-cols-1 gap-4 sm:gap-6">
               {DISTRIBUTORS.slice(0, 10).map((dist) => (
                 <Link prefetch={false} href="/distributors" key={dist.id} className="group flex flex-col sm:flex-row gap-4 sm:gap-6 p-6 sm:p-8 rounded-2xl sm:rounded-3xl bg-slate-50 border border-slate-100 hover:border-brand-teal/30 hover:shadow-xl transition-all duration-500">
 
@@ -239,7 +239,7 @@ export default function HomePage() {
                     <h3 className="font-display text-xl sm:text-2xl md:text-3xl font-medium text-slate-900 mb-2 group-hover:text-brand-teal transition-colors duration-300 truncate">
                       {dist.name}
                     </h3>
-                    <div className="text-slate-500 text-sm mb-3 leading-relaxed">
+                    <div className="text-slate-500 text-sm mb-3 leading-relaxed wrap-anywhere">
                       {dist.town} <br /> {dist.address}
                     </div>
                     <div className="inline-flex items-center gap-2 text-xs font-bold tracking-[0.1em] text-brand-navy uppercase group-hover:text-brand-teal transition-colors">

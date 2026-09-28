@@ -13,11 +13,15 @@
   --color-border-subtle: #F1F5F9;
   --color-border-dark: #E2E8F0;
 
+}
+
+/* Resolve Next.js font variables on the element using each utility. */
+@theme inline {
   --font-display: var(--font-outfit), sans-serif;
   --font-body: var(--font-inter), sans-serif;
   --font-serif: var(--font-playfair), serif;
-  --font-cormorant: var(--font-cormorant), serif;
-  --font-jakarta: var(--font-jakarta), sans-serif;
+  --font-cormorant: var(--font-cormorant-garamond), serif;
+  --font-jakarta: var(--font-plus-jakarta-sans), sans-serif;
   --font-hero: var(--font-syne), sans-serif;
   --font-mono: var(--font-space-mono), monospace;
 }
