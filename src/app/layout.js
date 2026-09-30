@@ -46,6 +46,12 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata = {
+  icons: {
+    icon: {
+      url: '/images/Leonidaz_Logo.webp',
+      type: 'image/webp',
+    },
+  },
   title: {
     default: 'Leonidaz Pharmaceuticals | Where Hurdles Don\'t Matter',
     template: '%s | Leonidaz Pharmaceuticals',
