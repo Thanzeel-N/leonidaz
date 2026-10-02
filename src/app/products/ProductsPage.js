@@ -1,5 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import { useRevealAll } from '@/hooks/useReveal';
 import { PRODUCTS } from '@/data/content';
 import { Box, X, Pill, FlaskConical, Tags } from 'lucide-react';
@@ -64,7 +65,9 @@ export default function ProductsPage() {
                 {/* Product Image */}
                 <div className="w-full h-36 sm:h-44 md:h-48 lg:h-52 flex items-center justify-center relative mb-3 sm:mb-4">
                   {product.display_image || product.image ? (
-                    <img
+                    <Image
+                      fill
+                      sizes="(max-width: 639px) calc((100vw - 48px) / 2), (max-width: 767px) calc((100vw - 96px) / 3), (max-width: 1023px) calc((100vw - 120px) / 4), (max-width: 1279px) calc((100vw - 192px) / 5), (max-width: 1599px) calc((100vw - 296px) / 6), 218px"
                       src={product.display_image || product.image}
                       alt={product.name}
                       className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-300"
@@ -109,7 +112,11 @@ export default function ProductsPage() {
               <div className="flex items-center gap-4 sm:gap-6">
                 <div className="w-20 h-20 sm:w-24 sm:h-24 bg-white rounded-xl sm:rounded-2xl shadow-lg flex items-center justify-center p-2 shrink-0">
                   {selected.display_image || selected.image ? (
-                    <img
+                    <Image
+                      width={80}
+                      height={80}
+                      sizes="(max-width: 639px) 64px, 80px"
+                      loading="eager"
                       src={selected.display_image || selected.image}
                       alt={selected.name}
                       className="max-w-full max-h-full object-contain"

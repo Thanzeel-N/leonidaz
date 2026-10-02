@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRevealAll } from '@/hooks/useReveal';
 import { STATS, LEADERSHIP } from '@/data/content';
 import { ShieldCheck, Zap, Users } from 'lucide-react';
@@ -40,7 +41,10 @@ export default function AboutPage() {
           {/* Right Column: High-Aspect Vertical Product Display Card */}
           <div className="lg:col-span-6 reveal">
             <div className="relative rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl aspect-[4/5] bg-white border border-slate-200/80 group">
-              <img
+              <Image
+                fill
+                preload
+                sizes="(max-width: 639px) calc(100vw - 32px), (max-width: 767px) calc(100vw - 48px), (max-width: 1023px) calc(100vw - 96px), (max-width: 1439px) calc((100vw - 224px) / 2), 608px"
                 src="/images/products_grouped.webp"
                 alt="Leonidaz Pharmaceutical Formulations Showcase"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
@@ -129,7 +133,9 @@ export default function AboutPage() {
       {/* ═══ FEATURED PRODUCT RANGE SHOWCASE ═══ */}
       <section className="pb-20 px-4 sm:px-6 md:px-12 max-w-[1200px] mx-auto">
         <div className="reveal relative rounded-3xl overflow-hidden shadow-2xl border border-slate-200/80 group aspect-[16/9] sm:aspect-[2.2/1] bg-slate-950">
-          <img
+          <Image
+            fill
+            sizes="(max-width: 639px) calc(100vw - 32px), (max-width: 767px) calc(100vw - 48px), (max-width: 1199px) calc(100vw - 96px), 1104px"
             src="/images/products_grouped.webp"
             alt="Leonidaz Comprehensive Pharmaceutical Range"
             className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 opacity-90"
@@ -230,7 +236,9 @@ export default function AboutPage() {
           {LEADERSHIP.map((leader, idx) => (
             <div key={idx} className="group flex flex-col">
               <div className="aspect-[4/5] overflow-hidden bg-slate-100 rounded-2xl mb-4 relative shadow-sm">
-                <img
+                <Image
+                  fill
+                  sizes="(max-width: 639px) calc(100vw - 48px), (max-width: 767px) calc((100vw - 112px) / 3), (max-width: 1199px) calc((100vw - 160px) / 3), 347px"
                   src={LEADER_PHOTOS[idx % LEADER_PHOTOS.length]}
                   alt={leader.role}
                   className="w-full h-full object-cover grayscale-[15%] group-hover:grayscale-0 transition-all duration-500 transform group-hover:scale-105"
